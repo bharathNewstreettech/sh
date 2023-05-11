@@ -11,4 +11,12 @@ echo \
 sudo apt-get update -y
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo systemctl start docker -y
-echo "docker latest version installed"
+echo "docker latest version installed and started"
+####installing postman####
+echo "postman installing"
+sudo snap install postman
+if [$? == 0]
+then
+   echo ""postman installed""
+fi
+
