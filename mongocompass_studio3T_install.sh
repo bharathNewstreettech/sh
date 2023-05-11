@@ -17,5 +17,3 @@ wget https://download.studio3t.com/studio-3t/linux/2023.4.0/studio-3t-linux-x64.
 tar -xvzf studio-3t-linux-x64.tar.gz
 ./studio-3t-linux-x64.sh
 echo "studio3t installed"
-
-
