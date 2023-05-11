@@ -2,12 +2,12 @@
 ####installing mongo compass####
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.35.0_amd64.deb
 sudo dpkg -i mongodb-compass_1.35.0_amd64.deb
-if [$? == 0]
+if [ $? == 0 ];
 then
    echo ""compass installed""
 fi
 mongodb-compass
-if [$? == 0]
+if [ $? == 0 ];
 then
    echo ""mongo compass started""
 fi
